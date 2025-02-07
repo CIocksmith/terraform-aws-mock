@@ -36,6 +36,7 @@ This is a mock Terraform project designed to simulate creating resources on AWS,
 - `main.tf`: Contains the primary Terraform configuration for creating AWS resources (EC2, S3, RDS).
 - `provider.tf`: Configures the AWS provider with mocked credentials.
 - `variables.tf`: Defines variables used throughout the Terraform configuration.
+- `mockvariables.tf`: Contains mocked values for various AWS resources, including the AMI ID, instance type, and other configuration values, which are used to simulate AWS     resources in the environment.
 - `outputs.tf`: Outputs any relevant details after Terraform applies the configuration.
 - `README.md`: Documentation for the project.
 
